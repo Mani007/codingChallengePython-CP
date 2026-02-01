@@ -19,4 +19,6 @@
 18. Recursion algorithms
 19. Heap Data structure
 20. Trie - string related questions
-21. 
+21. Divide and conquer algorithm
+22. Shortest path algorithms
+23. Priority Queue
