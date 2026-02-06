@@ -1,1 +1,5 @@
-# start new code
+# %%
+import os
+# %%
+os.listdir()
+# %%
