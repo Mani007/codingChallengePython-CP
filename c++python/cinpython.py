@@ -10,4 +10,7 @@ import ctypes
 cimport = ctypes.CDLL("E://Document backup//codingChallengePython-CP//c++python//clibpy.so") 
 # cimport.display(b"AA",2) # converting string into binary string
 c_display = cimport.display
-c_display(b"Jhon",25)
+c_display.argtypes = [ctypes.c_char_p,ctypes.c_int] # input type in C
+c_display.restype = ctypes.c_char_p # return type from c 
+success = c_display(b"Jhon",25)
+print(success)
