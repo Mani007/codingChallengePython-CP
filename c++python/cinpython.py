@@ -8,4 +8,4 @@ import ctypes
 
 
 cimport = ctypes.CDLL("E://Document backup//codingChallengePython-CP//c++python//clibpy.so") 
-cimport.display("AA",2) # It is displaying the length of character as output not the real string
+cimport.display(b"AA",2) # converting string into binary string
