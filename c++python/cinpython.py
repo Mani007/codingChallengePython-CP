@@ -8,4 +8,6 @@ import ctypes
 
 
 cimport = ctypes.CDLL("E://Document backup//codingChallengePython-CP//c++python//clibpy.so") 
-cimport.display(b"AA",2) # converting string into binary string
+# cimport.display(b"AA",2) # converting string into binary string
+c_display = cimport.display
+c_display(b"Jhon",25)
